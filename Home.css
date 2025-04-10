@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: lightgrey;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer {
+    display: flex;
+    height: 80%;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.218);
+}
+
+.name_lbl {
+    background-color: rgb(226, 144, 43);
+    border-radius: 50%;
+    padding: 5px 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_label {
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bold_text {
+    font-size: large;
+    font-weight: bold;
+}
+
+.list_btn {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(38, 0, 255);
+    margin-bottom: 10px;
+}
+
+.list_btn button {
+    width: 100%;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 102, 255);
+    border-radius: 10px;
+    color:  rgb(0, 102, 255);
+}
+
+.z_div {
+    position: relative;
+    z-index: 1;
+    width: 20%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.div_SM {
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.div_SM button {
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+}
+
+.img_insta,
+.img_yt {
+    height: 80%;
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(640%) hue-rotate(190deg) brightness(95%) contrast(100%);
+}
+
+.img_croissant {
+    height: 100%;
+    width: 100%;
+}
